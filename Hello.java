@@ -7,11 +7,13 @@ public class Hello {
 		
 		Scanner scanner = new Scanner(System.in);
 		int input_val = scanner.nextInt();
+		System.out.println("Practising Git");
 		int i = 1;
 		while(i<=input_val)
 		{
 			System.out.println(i);
 			i++;
+
 		}
 		scanner.close();
 	}
